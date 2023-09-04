@@ -26,3 +26,31 @@ pyquery
 
 feedparser
 ：RSSのフォーマット（e.g., 名前空間）を意識せずスクレイピングできる
+
+
+Selenium
+：プログラムからブラウザーを自動操作するツール
+：WebDriverというW3Cで標準化されたAPIを使って、様々なブラウザーを自動操作
+
+Puppeteer
+：Chromeを自動操作するためのNode.jsのライブラリ
+：ChromeDevToolsProtocolを使うため、GoogleChromeしか対応していない
+：Seleniumに比べて細かな制御が可能
+
+
+urllib.robotparser
+：robots.txtをパースするためのRobotFileParserクラスを含む
+：上から順に評価して最初にパスがマッチするディレクティブに従います
+：HTTP401または403のエラーは、全てでクロール禁止
+
+tenacity
+：リトライ処理をデコレータで提供
+
+CacheControl
+：Requestsでキャッシュの処理
+
+
+JSON Schema
+：JSONの構造を記述する言語を使ってバリデーションするライブラリ
+：JSONSchemaをdictとして定義し、validate()関数でバリデーションを行う
+：JSONで表現可能な型ならバリデーション可能
